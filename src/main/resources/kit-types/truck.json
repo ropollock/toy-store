@@ -1,0 +1,11 @@
+{
+  "id": 2,
+  "name": "truck",
+  "basePrice": 350,
+  "defaultBodyPartId": 10,
+  "defaultEnginePartId": 7,
+  "defaultWheelsPartId": 12,
+  "defaultPowerSourcePartId": 3,
+  "defaultColorPartId": 1,
+  "defaultFinishPartId": 6
+}

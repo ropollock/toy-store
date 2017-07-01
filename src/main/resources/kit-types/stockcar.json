@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "name": "stock car",
+  "basePrice": 500,
+  "defaultBodyPartId": 9,
+  "defaultEnginePartId": 8,
+  "defaultWheelsPartId": 11,
+  "defaultPowerSourcePartId": 4,
+  "defaultColorPartId": 2,
+  "defaultFinishPartId": 5
+}
