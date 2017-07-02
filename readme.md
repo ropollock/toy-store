@@ -71,6 +71,25 @@ This includes session tokens. To access any of these endpoints you'll need to in
 }
 ```
 
+## Get order
+* /orders/{id}
+* POST
+* Headers
+    - x-session-token
+    - application/json
+    
+### Response
+* 200
+
+```json
+{
+    "id": 1,
+    "customerId": 1,
+    "totalPrice": 2495,
+    "shippingAddress": "145 fake street rd Alexandria 20120"
+}
+```
+
 ## Get all part type categories
 * /part-type-category
 * GET
