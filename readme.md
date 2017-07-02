@@ -294,7 +294,7 @@ This includes session tokens. To access any of these endpoints you'll need to in
 
 # Note
 Resources created or altered during the runtime will revert to their provisioned state on a restart.
-The changes are not deserialized and persisted, instead everything is loaded into a mock memory store for demo purposes.
+The changes are not persisted on shutdown, instead everything is provisioned from json resources and loaded into a mock memory store for demo purposes.
 
 # Logger is chatty
 Watch console output for insight into the order lifecycle and provisioning.
