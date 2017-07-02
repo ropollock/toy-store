@@ -277,7 +277,7 @@ Use either of these customer ids in the create order request!
 * /kit-types/{id}
 * PATCH
 * Headers
-    * x-session-token
+    * x-session-token (Requires the experience liaison session token)
     * application/json
     
 ### Request
@@ -295,7 +295,7 @@ Use either of these customer ids in the create order request!
 * /part-types/{id}
 * PATCH
 * Headers
-    * x-session-token
+    * x-session-token (Requires the experience liaison session token)
     * application/json
     
 ### Request
