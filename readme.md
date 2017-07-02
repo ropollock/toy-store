@@ -33,6 +33,23 @@ This includes session tokens. To access any of these endpoints you'll need to in
 }
 ```
 
+## Customers
+You'll need some valid customers to place those orders! What better place to post customer information than a github readme?
+Use either of these customer ids in the create order request!
+
+```json
+{
+  "id": 1,
+  "fullName": "Russ"
+}
+```
+
+```json
+{
+  "id": 2,
+  "fullName": "Marsha"
+}
+```
 
 ## Create order
 * /orders
