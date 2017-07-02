@@ -289,7 +289,7 @@ Use either of these customer ids in the create order request!
 * 404 not found
 
 ### Response
-* 204 Not Content
+* 204 No Content
 
 ## Patch part type surcharge
 * /part-types/{id}
@@ -307,7 +307,7 @@ Use either of these customer ids in the create order request!
 * 404 not found
 
 ### Response
-* 204 Not Content
+* 204 No Content
 
 # Note
 Resources created or altered during the runtime will revert to their provisioned state on a restart.
